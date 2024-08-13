@@ -1,0 +1,25 @@
+/* styles.css */
+.img-boyut {
+  width: 100%;
+  max-width: 240px;
+  height: auto;
+  object-fit: cover;
+  box-shadow: 0 16px 24px rgba(0, 0, 0, 0.75);
+  border-radius: 8px;
+  transition: transform 1s ease;
+  &:hover {
+    transform: scale(1.14);
+  }
+}
+
+.container-r {
+  display: grid;
+  place-items: center;
+  height: 48vh;
+}
+.ppp {
+  display: inline;
+  padding: 10px;
+  justify-content: center;
+  height: 10vh;
+}
