@@ -12,6 +12,7 @@ function App() {
     <>
       <Navibar />
       <Headerx/>
+      
       <Footer />
       <Features/>
       <MyCard />
